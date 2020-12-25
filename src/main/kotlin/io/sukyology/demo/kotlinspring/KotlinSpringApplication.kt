@@ -12,4 +12,5 @@ class KotlinSpringApplication
 fun main(args: Array<String>) {
     println(MyClass(5, ClassWithDelegate(7)).extDelegated)
     runApplication<KotlinSpringApplication>(*args)
+    println("log after start")
 }
